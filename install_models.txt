@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Installing AI models..."
+
+ollama pull llama3
+ollama pull mistral
+ollama pull phi3
+
+echo "Done."
